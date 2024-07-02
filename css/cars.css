@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'vazir';
+    src: url(../fonts/vazir.woff);
+}
+* {
+    padding: 0;
+    margin: 0;
+   font-family: 'vazir';
+}
+
+body {
+    direction: rtl;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+h2{
+    color: #48ff00;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.left ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.left li {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.right {
+    margin-top: 10px;
+      padding: 0 1rem;
+}
+
+input {
+    border: none;
+    border-radius: 5rem;
+    padding: 10px;
+    width: 200px;
+}
+
+.button {
+    padding: 10px 10px;
+    color: #1a1a1a;
+    background-color: #48ff00;
+    border: none;
+    border-radius: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.porshech {
+    margin: 5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.porshech h2 {
+    color: #1a1a1a;
+}
+
+.porshech p {
+    color: #555555;
+    margin-top: 1rem;
+}
+
+.img img {
+    width: 600px;
+}
+
+
+section {
+    width: 70%;
+    margin: 1rem auto;
+    color: #555555;
+}
+
+.icons {
+    font-size: 2rem;
+    color: #555555;
+    display: none;
+    margin: 0 2rem;
+}
+
+@media  screen and (max-width: 600px) {
+    .menu .left ul {
+        display: none;
+    }
+
+    .right  {
+        display: none;
+    }
+
+    .icons {
+        display: inline;
+    }
+
+    .left h2 {
+        font-size: 1.5rem;
+    }
+
+    .porshech {
+        flex-direction: column;
+    }
+
+    .img img {
+        width: 350px;
+    }
+}
+
+
+
+
+
+@media  screen and (min-width: 600px) and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+}
